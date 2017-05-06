@@ -127,10 +127,10 @@ public class Game extends Canvas implements Runnable
 
 		if (inGame)
 		{
-			score.render(g);
 			world.render(g);
-			snake.render(g);
+			score.render(g);
 			fruit.render(g);
+			snake.render(g);
 		} else
 		{
 			end(g);
