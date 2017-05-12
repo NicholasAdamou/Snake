@@ -112,6 +112,9 @@ public class Game extends Canvas implements Runnable
 		score.tick();
 	}
 
+	/**
+	 * Renders the game objects and entities to the canvas
+	 */
 	private void render()
 	{
 		BufferStrategy bs = getBufferStrategy();
